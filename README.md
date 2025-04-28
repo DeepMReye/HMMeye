@@ -54,7 +54,10 @@ Carefully review the 'report*.html" file to confirm that the eye voxel extractio
 
 ### Step 4: Run the Hidden Markov Model (HMM)
 
-Open "run_HMMeye.ipynb", select your conda environment (here: 'HMMeye'), and follow the steps described in the notebook. An HMM will be trained and tested to segment the eye-voxel time series into events. For more details, please see [Nau et al. 2024](https://doi.org/10.1101/2024.10.19.619187). 
+Open "run_HMMeye.ipynb", select your conda environment (here: 'HMMeye'), and follow the steps described in the notebook. An HMM will be trained and tested to segment the eye-voxel time series into events. 
+For more details, please see [Nau et al. 2024](https://doi.org/10.1101/2024.10.19.619187). 
+
+To run the notebook, please download the content of the ['eye_voxel_data' folder](https://osf.io/baw39/) on Open Science Framework and place it in the "data" folder of your cloned HMMeye repository.  
 
 ## Citations
 If you use this codebase, please cite the following article.
