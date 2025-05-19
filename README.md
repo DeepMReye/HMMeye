@@ -16,7 +16,7 @@ Check whether the eyes and optic nerves are included in your functional images. 
 Ideally, you scanning sequence uses a P>>A phase encoding direction, leading the eyes to be slightly stretched out to the front (unlike A>>P). However, either might work.
 
 ### Step 2: Preprocess your fMRI data
-Preprocess your data using [fMRIprep](https://fmriprep.org/en/stable/). Avoid smoothing. At minimum, perform realignment (i.e., head-motion correction) using your favorite preprocessing pipeline.
+Preprocess your data using [fMRIprep](https://fmriprep.org/en/stable/). Avoid smoothing. At minimum, perform realignment (i.e., head-motion correction) using your favorite preprocessing pipeline. Already preprocessed eye-voxel data required to run the 'run_HMMeye.ipynb' notebook are available for download on  [Open Science Framework](https://osf.io/baw39/) in the 'eye_voxel_data' folder.
 
 ### Step 3: Install DeepMReye and BrainIAK
 
